@@ -1,4 +1,4 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+<!-- This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
 
@@ -33,4 +33,44 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details. -->
+
+
+# 🚀 My Portfolio
+
+This is my personal portfolio website built with **Next.js**, **Aceternity UI**, and **TypeScript**. The portfolio showcases my skills, projects, and experiences as a web developer.
+
+## 🛠️ Tech Stack
+
+- **Framework**: [Next.js](https://nextjs.org/)
+- **UI Library**: [Aceternity UI](https://aceternity.com/)
+- **Styling**: Tailwind CSS
+- **Language**: TypeScript
+- **Package Manager**: npm
+
+
+## 📦 Installation
+
+1. Clone the repository:
+
+   ```sh
+   git clone https://github.com/yourusername/your-portfolio.git
+   cd your-portfolio    
+   ```
+2.Install dependencies:
+```
+npm install
+# or
+yarn install
+```  
+
+3.Run the development server:
+```
+npm run dev
+# or
+yarn dev
+```
+4.Open your browser and go to:
+```
+http://localhost:3000
+```
