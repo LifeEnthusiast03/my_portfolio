@@ -34,7 +34,7 @@ export const Spotlight = ({
         opacity: 1,
       }}
       transition={{
-        duration: 1.5,
+        duration: 1.0,
       }}
       className="pointer-events-none absolute inset-0 h-full w-full"
     >
