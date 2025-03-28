@@ -2,6 +2,7 @@
 import Hero from '../components/Hero'
 import { FloatingNav } from '@/components/ui/floating-navbar';
 import { FaHome } from "react-icons/fa";
+import Grid from '../components/Grid'
 
 export default function Home() {
   return (
@@ -17,8 +18,8 @@ export default function Home() {
         }
       />
       <Hero/>
-
     </div>
+    <Grid/>
       </main>
   );
 }
