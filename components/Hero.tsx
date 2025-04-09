@@ -3,6 +3,8 @@ import { motion } from "motion/react";
 import { HeroHighlight, Highlight } from "../components/ui/hero-highlight";
 import { Spotlight } from "./ui/spotlight-new"
 import {TextGenerateEffect} from "./ui/text-generate-effect"
+import Magicbtn from "./ui/Magicbtn";
+import { CiLocationArrow1 } from "react-icons/ci";
 
 
 export default function () {
@@ -16,8 +18,8 @@ export default function () {
     <div className="h-screen w-full dark:bg-black-100 bg-white  dark:bg-grid-white/[0.02] bg-grid-black/[0.2]  flex items-center justify-center absolute top-0 left-0">
       {/* Radial gradient for the container to give a faded look */}
   <div className="absolute pointer-events-none inset-0 flex items-center justify-center dark:bg-black-100 bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]"/>
-</div>
-
+    </div>
+   
     <HeroHighlight>
       <motion.h1
         initial={{
@@ -32,7 +34,7 @@ export default function () {
           duration: 0.5,
           ease: [0.4, 0.0, 0.2, 1],
         }}
-        className="text-2xl px-4 md:text-4xl lg:text-5xl font-bold text-neutral-700 dark:text-white max-w-4xl leading-relaxed lg:leading-snug text-center mx-auto "
+        className="text-2xl px-5 md:text-4xl lg:text-5xl font-bold text-neutral-700 dark:text-white max-w-4xl leading-relaxed lg:leading-snug text-center mx-auto "
       >
         <div className="flex justify-center relative my-20 z-10">
           <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center">
@@ -47,11 +49,20 @@ export default function () {
             <p
             className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl"
             > Passionate about creating seamless digital experiences through clean and efficient code.</p>
+            <a href="#about">
+              <Magicbtn
+               title="Show my work"
+              icon={<CiLocationArrow1 />}
+              position="right"
+              />
+            </a>
+             
           </div>
         </div>
  
       </motion.h1>
     </HeroHighlight>
+        
     </div>
 
 
